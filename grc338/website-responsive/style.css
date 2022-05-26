@@ -1,0 +1,135 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;}
+
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+body{
+    background-color: rgb(#fafafa);
+
+}
+
+div.container{
+    max-width: 65em;
+    margin: auto;
+    display: grid;
+}
+
+h1{
+    width: 17%;
+    display: block;
+    margin: 1rem;
+}
+
+h2{
+    font-family: questa-grande, serif;
+    font-weight: 400;  
+    font-size: 1rem;
+    font-style: normal;
+    margin: 1rem 1rem 0rem 1rem;
+    padding: 0rem 0rem 0.5rem 0rem;
+    color: rgb(134, 159, 229);
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 1rem;
+}
+
+h4{
+    font-family: questa-grande, serif;
+    font-weight: 600;  
+    font-style: normal;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+p.description{
+    font-style: italic;    
+}
+
+p.price{
+    color: rgb(194, 87, 146)
+}
+
+
+
+li ul li{
+    margin: 0.5rem;
+    margin-left: 2rem;
+    display: list-item;
+}
+
+p{
+    font-family: questa-grande, serif;
+    font-weight: 400;  
+    font-style: normal;
+    margin: 1rem;
+}
+
+section.index{
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: questa-grande, serif;
+    font-weight: 400;  
+    font-size: 1.5rem;
+    font-style: normal;
+    margin: 1rem;
+    text-transform: lowercase;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(0,0,0)
+}
+
+a{
+    box-shadow: inset;
+    color: rgb(194, 87, 146)
+}
+
+p a{
+    text-decoration: none;
+    border-bottom: none;
+    outline: none;
+}
+
+@media only screen and (min-width: 50em) {
+   
+    div.container{
+        max-width: 65em;
+        margin: auto;
+        display: grid;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    h2{
+        border-bottom: solid 1px rgb(134, 159, 229);
+        margin-right: 0rem;
+    }
+
+    img{
+        margin-top: 1rem;
+    }
+
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
