@@ -1,0 +1,104 @@
+/*CSS document*/
+
+body {
+    background-color: #fafafa;
+    margin: 1.5em;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1{
+    max-width: 50%;
+}
+
+h2{
+    font-family: scotch-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #93B49A;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+figcaption{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #363537;
+}
+
+aside{
+    margin-top: 2em;
+}
+
+nav ul li a{
+    font-family: scotch-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1em;
+    color: #99878C;
+    margin-right: 1em;
+    text-transform: lowercase;
+}
+
+ul li{
+    display: inline;
+}
+
+nav ul li a:hover{
+    color: #363537;
+}
+
+h3{
+    font-family: scotch-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #93B49A;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #363537;
+    padding: auto;
+    margin-bottom: 2em;
+}
+
+footer{
+    background-color: #93B49A;
+    padding: 0.2em;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+footer p{
+    color:#fafafa;
+    margin: 0.5em;
+}
